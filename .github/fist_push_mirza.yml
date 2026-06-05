@@ -1,0 +1,15 @@
+# Morales Lezama Mirza Natzielly
+
+name: First_push_Mirza
+on:
+  push: 
+
+jobs:
+  Tarea1: 
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Say Ayy
+        run:
+          echo "Hi my first push"
+          echo "My name is Mirza Morales

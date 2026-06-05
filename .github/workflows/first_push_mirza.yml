@@ -1,0 +1,13 @@
+name: Fisrt_push
+on:
+  push: 
+
+jobs:
+  TareaPush1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Ayy
+        run: 
+          echo "My first Push"
+          echo "My name is Mirza"

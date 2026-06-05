@@ -12,3 +12,9 @@ jobs:
           echo "My first Push"
           echo "My name is Mirza"
           echo "Message ${{github.event.head_commit.message}}"
+          echo "Autor ${{ github.actor }}"
+          echo "ID ${{ github.sha }}"
+          echo "URL ${{ github.event.head_commit.url }}"
+          echo "Rama ${{ github.ref_name }}"
+          echo "Repositorio ${{ github.repository }}"
+          
